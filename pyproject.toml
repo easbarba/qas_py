@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qas"
+version = "0.1.0"
+description = "Easily manage multiple FLOSS repositories"
+authors = ["easbarba <easbarba@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+pytest = "^7.2.1"
+python-lsp-server = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
